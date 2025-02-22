@@ -7,9 +7,11 @@ body {
 }
 
 header {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
     background-color: #1e1e1e; /* Darker header */
     padding: 20px;
-    text-align: center;
+    text-align: left; /* Align text to the left */
 }
 
 nav ul {
